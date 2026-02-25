@@ -1,0 +1,51 @@
+{
+  "name": "config-generator",
+  "version": "1.0.0",
+  "description": "配置文件生成 CLI 工具 - 30秒生成正确的配置",
+  "type": "module",
+  "bin": {
+    "config-gen": "./dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "templates/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "lint": "biome check src/",
+    "format": "biome format --write src/"
+  },
+  "keywords": [
+    "config",
+    "generator",
+    "cli",
+    "docker",
+    "typescript",
+    "eslint",
+    "kubernetes",
+    "devops",
+    "scaffolding",
+    "boilerplate",
+    "configuration",
+    "developer-tools"
+  ],
+  "author": "Auto Company",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "prompts": "^2.4.2",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/prompts": "^2.4.9",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0",
+    "@biomejs/biome": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

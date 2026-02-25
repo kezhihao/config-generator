@@ -1,0 +1,1 @@
+{"version":3,"file":"detector.d.ts","sourceRoot":"","sources":["../../src/core/detector.ts"],"names":[],"mappings":"AAAA;;;GAGG;AAIH,OAAO,KAAK,EAAE,eAAe,EAAe,MAAM,aAAa,CAAC;AAEhE,qBAAa,eAAe;IAC1B;;OAEG;IACG,MAAM,CAAC,GAAG,GAAE,MAAsB,GAAG,OAAO,CAAC,eAAe,CAAC;IAsDnE;;OAEG;IACH,OAAO,CAAC,qBAAqB;CAuB9B"}

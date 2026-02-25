@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd projects/config-generator && npm run build 2>&1\",\"description\":\"Build TypeScript code\"}",
+  "error": "Exit code 1\n(eval):cd:1: no such file or directory: projects/config-generator\n\n(eval):cd:1: no such file or directory: projects/config-generator",
+  "timestamp": "2026-02-25T07:56:55.020Z",
+  "retry_count": 1
+}
