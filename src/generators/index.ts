@@ -5,6 +5,13 @@
 
 import type { IGenerator } from '../types.js';
 import { DockerfileGenerator } from './dockerfile.js';
+import { TsConfigGenerator } from './tsconfig.js';
+import { ESLintGenerator } from './eslint.js';
+import { PrettierGenerator } from './prettier.js';
+import { GitignoreGenerator } from './gitignore.js';
+import { GitHubActionsGenerator } from './github-actions.js';
+import { JestGenerator } from './jest.js';
+import { ViteGenerator } from './vite.js';
 
 /**
  * 生成器注册表
@@ -56,12 +63,13 @@ export function createRegistry(): GeneratorRegistry {
 
   // 注册所有生成器
   registry.register('dockerfile', new DockerfileGenerator());
-
-  // TODO: 添加更多生成器
-  // registry.register('tsconfig', new TsConfigGenerator());
-  // registry.register('eslint', new ESLintGenerator());
-  // registry.register('prettier', new PrettierGenerator());
-  // registry.register('github-actions', new GitHubActionsGenerator());
+  registry.register('tsconfig', new TsConfigGenerator());
+  registry.register('eslint', new ESLintGenerator());
+  registry.register('prettier', new PrettierGenerator());
+  registry.register('gitignore', new GitignoreGenerator());
+  registry.register('github-actions', new GitHubActionsGenerator());
+  registry.register('jest', new JestGenerator());
+  registry.register('vite', new ViteGenerator());
 
   return registry;
 }

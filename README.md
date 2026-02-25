@@ -17,13 +17,13 @@
 | 配置类型 | 说明 | 状态 |
 |---------|------|------|
 | Dockerfile | 多阶段优化的 Docker 镜像 | ✅ |
-| tsconfig.json | TypeScript 配置 | 🚧 |
-| .eslintrc.js | ESLint 代码规范 | 🚧 |
-| .prettierrc | Prettier 格式化 | 🚧 |
-| .github/workflows/ci.yml | GitHub Actions CI/CD | 🚧 |
-| jest.config.js | Jest 测试配置 | 🚧 |
-| vite.config.ts | Vite 构建配置 | 🚧 |
-| .gitignore | Git 忽略文件 | 🚧 |
+| tsconfig.json | TypeScript 配置 | ✅ |
+| .eslintrc.js | ESLint 代码规范 | ✅ |
+| .prettierrc | Prettier 格式化 | ✅ |
+| .github/workflows/ci.yml | GitHub Actions CI/CD | ✅ |
+| jest.config.js | Jest 测试配置 | ✅ |
+| vite.config.ts | Vite 构建配置 | ✅ |
+| .gitignore | Git 忽略文件 | ✅ |
 
 ## 安装
 

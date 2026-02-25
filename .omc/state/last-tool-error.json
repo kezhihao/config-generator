@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd projects/config-generator && npm run build 2>&1\",\"description\":\"Build TypeScript code\"}",
-  "error": "Exit code 1\n(eval):cd:1: no such file or directory: projects/config-generator\n\n(eval):cd:1: no such file or directory: projects/config-generator",
-  "timestamp": "2026-02-25T07:56:55.020Z",
+  "tool_input_preview": "{\"command\":\"cd /Volumes/Fanxiang\\\\ S500Pro\\\\ 1TB\\\\ Media/GameDev/Codes/auto-company/projects/config-generator && npm run build 2>&1\",\"description\":\"重新构建 Config-Generator\"}",
+  "error": "Exit code 2\n\n> config-generator@1.0.0 build\n> tsc\n\nsrc/generators/prettier.ts(20,28): error TS2322: Type 'number' is not assignable to type 'string'.\nsrc/generators/prettier.ts(21,28): error TS2322: Type 'number' is not assignable to type 'string'.\nsrc/generators/prettier.ts(51,25): error TS2304: Cannot find name 'quotes'.\nsrc/generators/tsconfig.ts(84,36): error TS2339: Property 'jsx' does not exist on type '{ target: string; module: string; lib: string[]; outDir: any; rootDir: any; strict: boo...",
+  "timestamp": "2026-02-25T08:03:51.159Z",
   "retry_count": 1
 }
