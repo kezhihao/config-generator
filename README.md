@@ -2,6 +2,7 @@
 
 > **Generate project configuration files in 30 seconds without reading documentation** | CLI tool for generating Dockerfile, tsconfig.json, ESLint, Prettier, GitHub Actions CI/CD, Jest, Vite configs with best practices
 
+[![CI](https://github.com/kezhihao/config-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/kezhihao/config-generator/actions/workflows/ci.yml)
 [![npm version](https://badge.fury.io/js/config-generator.svg)](https://www.npmjs.com/package/config-generator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
