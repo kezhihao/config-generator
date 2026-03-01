@@ -1,6 +1,6 @@
 # Config-Generator
 
-> **Generate project configuration files in 30 seconds without reading documentation** | CLI tool for generating Dockerfile, tsconfig.json, ESLint, Prettier, GitHub Actions CI/CD, Jest, Vite configs with best practices
+> **Instant Dockerfiles for Engineers Who Hate DevOps** | CLI tool - generate Dockerfile, tsconfig, ESLint, CI/CD configs with best practices. No documentation reading required.
 
 [![CI](https://github.com/kezhihao/config-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/kezhihao/config-generator/actions/workflows/ci.yml)
 [![npm version](https://badge.fury.io/js/config-generator.svg)](https://www.npmjs.com/package/config-generator)
